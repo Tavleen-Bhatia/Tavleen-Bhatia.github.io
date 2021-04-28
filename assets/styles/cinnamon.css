@@ -1,0 +1,55 @@
+html {
+    height: 100%
+}
+
+body {
+    position:relative;
+    margin: 0px;
+    background-color: #8c0000;
+}
+    
+.container{
+    position: relative;
+    padding-top: 20px;
+
+}
+.card {
+    animation: fadeInBig 2s ease-in;
+    padding-top: 10px;
+    width: 650px;
+    height: 650px;;
+    margin: 0px auto;
+    background:rgb(93, 0, 0);
+    box-shadow: 0px 0px 5px #0c0c0b;
+    border-radius: 2px;
+    position: relative;
+    padding: 30px 0px;
+}
+
+.cinnamonImg {
+    animation: fadeInBig 3s ease-in;
+    position:absolute;
+    left:0.85cm;
+    right: 1cm;
+     width: 90%;
+    height: 90%;
+    object-fit: cover;
+
+}
+
+@keyframes fadeInBig {
+    0%  {
+        opacity: 0;
+        transform: scale3d(0.75,0.75,1);
+    }
+
+    70% {
+        opacity: 0;
+        transform: scale3d(0.75,0.75,1);
+    }
+
+    100% {
+        opacity:1; 
+        transform: scale3d(1,1,1);
+    }
+}
